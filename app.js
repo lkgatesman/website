@@ -23,5 +23,17 @@ app.use(function(req, res, next){
 });
 
 app.get('/', (req, res) => {
-    res.render("home.hbs");
+    res.render("layout.hbs");
+})
+
+app.get('/resume', (req, res) => {
+    res.render("resume.hbs");
+})
+
+app.get('/contact', (req, res) => {
+    res.render("contact.hbs");
+})
+
+app.listen(3000, () => {
+    console.log("Server started!");
 })
