@@ -1,7 +1,33 @@
 .header {
     padding: 60px;
-    text-align: center;
     background: black;
     color: white;
     font-size: 30px;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 20px;
+    width: 100%;
+}
+
+.header nav{
+    display: inline-block;
+    background-color: black;
+}
+
+.header a{
+    padding: 10px;
+    color: powderblue;
+    text-decoration: none;
+}
+
+.home{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: flexbox;
+}
+
+body{
+    font-family: Andale Mono;
 }

@@ -23,7 +23,7 @@ app.use(function(req, res, next){
 });
 
 app.get('/', (req, res) => {
-    res.render("layout.hbs");
+    res.render("home.hbs");
 })
 
 app.get('/resume', (req, res) => {
